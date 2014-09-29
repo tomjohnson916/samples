@@ -1,8 +1,5 @@
 angular.module('mixxtureApp')
-  .controller('CartCtrl', function(
-  $scope,
-  CartService
-  ){
+  .controller('CartCtrl', function($scope, CartService){
 
   $scope.items = CartService.items;
 
